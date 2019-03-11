@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <title>Survey form</title>
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Tell us about yourself</p>
+  <form id="survey-form">
+    <label for="Name" id="name-label">What is your name?</label>
+    <input type="name" name="Name" placeholder="Enter name">
+    <br>
+    <br>
+    <label id="email-label">Enter your email address:</label>
+    <input type="email" name="email" placeholder="example@gmail.com">
+    <br>
+    <br>
+    <label for="number" id="number-label">Number:</label>
+    <input type="number" name="number" placeholder="Enter number here" max="120">
+    <br>
+    <br>
+    <label id="dropdown">Sports you like:</label>
+    <select>
+      <option value="Football">Football</option>
+      <option value="Basketball">Basketball</option>
+      <option value="Tenis">Tenis</option>
+      <option value="Golf">Golf</option>
+      <option value="rugby">rugby</option>
+    </select>
+    <br>
+    <br>
+    <label>Choose one Mars or earth?</label>
+    <ul>
+in    </ul>
+    <label>What sports do you play/do (check all thet apply)</label>
+    <ul>
+      <li><label><input type="checkbox"value="Football">Football</label></input></li>
+      <li><label><input type="checkbox"value="Basketball">Basketball</label></input></li>
+      <li><label><input type="checkbox"value="Tenis">Tenis</label></input></li>
+      <li><label><input type="checkbox"value="Golf">Golf</label></input></li>
+      <li><label><input type="checkbox"value="rugby">rugby</label></input></li>
+
+      <label>Additional Comments</label>
+      <textarea name=" " rows="8" cols="80"placeholder="Enter your Comments"></textarea>
+    </ul>
+    <button type="submit" name="button" id="Submit">Submit</button>
+  </form>
+</body>
+
+</html>
